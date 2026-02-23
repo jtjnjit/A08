@@ -7,6 +7,14 @@
 .featured {
 	border-top: 2px solid var(--accent-color);
 	border-bottom: 2px solid var(--accent-color);
+	& img {
+		float: right;
+		min-height: 100px;
+		max-width: 250px;
+		border: none;
+		border-radius: 0;
+		margin: 10px;
+	}
 }
 
 aside {
